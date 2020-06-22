@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+body {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px; }
+
+.border-radius-none {
+  border-radius: 0 !important;}
+
+.section {
+  background-image: url("../images/header-bg.png");
+  padding-bottom: 60px;
+  padding-top: 60px; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%; }
+
+.section .header_section {
+  height: 537px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navbar-nav li a {
+  color: #545454; }
+
+.nav-link:active {
+  color: #b346ff !important; }
+.nav-link:hover {
+  color: #b346ff !important; }
+
+.header_section {
+  color: #ffffff; }
+  .header_section .content {
+    text-align: center; }
+    .header_section .content .source_code_text {
+      font-family: "Source Code Pro", monospace; }
+
+.about_section {
+  padding-bottom: 150px;
+  padding-top: 150px; }
+
+.greetings {
+  font-size: 16px; }
+
+.header {
+  margin-bottom: 20px; }
+
+.info {
+  line-height: 26px; }
+  .info > p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 50px; }
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .about-image img {
+    height: 340px;
+    border-radius: 50%; }
+
+.social-accounts p {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+.social-accounts .social-icons {
+  margin-right: 8px;
+  text-decoration: none; }
+  .social-accounts .social-icons :hover {
+    text-decoration: none; }
+
+.cards_services {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5; }
+
+.text-muted {
+  color: #6c757d !important; }
+
+.navbar-light .navbar-toggler {
+  border-color: #f8f9fa !important; }
+
+.contact-section .container, .services-section .container, .portfolio-section .container {
+  padding: 150px 0px 100px 0px; }
+
+.services-section .service_header {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.portfolio-section .poortfolio_header {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.portfolio_container {
+  padding-left: 15px !important;
+  padding-right: 15px !important; }
+
+.prog_tools {
+  margin-bottom: 14px; }
+  .prog_tools p {
+    margin-bottom: 5px !important; }
+
+.client, .proj_link {
+  margin-bottom: 0px !important; }
+
+.contact_container {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.location, .email_address {
+  display: flex; }
+  .location p svg, .email_address p svg {
+    margin-right: 10px; }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #b346ff;
+    outline: 0;
+    box-shadow: 0 0 0.1rem 0.1rem rgba(179, 70, 255, 0.46); }
+
+.btn-primary {
+  color: #fff;
+  background-color: #b346ff;
+  border-color: #a737f5; }
+  .btn-primary:focus {
+    color: #fff;
+    background-color: #b346ff !important;
+    border-color: #a536f4 !important;
+    box-shadow: 0 0 0.1rem 0.1rem rgba(179, 70, 255, 0.42) !important; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #9a24ec;
+    border-color: #8613d6; }
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #9a24ec !important;
+  border-color: #8613d6 !important;
+}
+
+.btn {
+  border-radius: 0px; }
+
+.slideanimation {
+  visibility: hidden; }
+
+.slide_up {
+  animation-name: slide_up;
+  -webkit-animation-name: slide_up;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible; }
+
+@keyframes slide_up {
+  0% {
+    opacity: 0;
+    transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
+@-webkit-keyframes slide_up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@media (max-width: 575.98px) {
+  .header_section .content img {
+    height: 150px !important; }
+
+  .section {
+    background-image: url("../images/header-bg-mb.png");
+    padding-bottom: 60px;
+    padding-top: 60px; }
+
+  .nav-item {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important; }
+
+  .navbar-nav {
+    margin-bottom: 8px !important; }
+
+  .text-muted {
+    font-size: 10px; }
+
+  .header {
+    text-align: center;
+    margin-top: 25px; }
+
+  .info > p {
+    text-indent: 0px !important; }
+
+  .social-accounts {
+    text-align: center !important; }
+
+  .about_section {
+    padding-bottom: 55px;
+    padding-top: 55px; }
+
+  .contact-section .container {
+    padding: 95px 0px 70px 0px; }
+
+  .porfolio-section .container {
+    padding: 130px 0px 30px 0px; } }
+
+/*# sourceMappingURL=main.css.map */
+
+#snackbar-success {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #b346ff;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar-success.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar-danger {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #ff466c;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar-danger.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/*Modal image*/
+
+
+.project_image {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project_image:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
