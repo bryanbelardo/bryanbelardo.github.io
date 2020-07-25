@@ -205,6 +205,37 @@
 
 			        <div class="col-md-4">
 			          	<div class="card mb-4 border-radius-none">
+			          		<img class="project_image bd-placeholder-img card-img-top border-radius-none" alt="Serapina" width="100%" height="225" src="assets/images/serapina.png">
+				            <div class="card-body">
+				              	<p class="card-text"> <a href="https://school.serapina.com/" target="_blank">Serapina</a> is an all-in-one online school management system in the Philippines.</p>
+
+				              	<div class="prog_tools">
+									<p><strong>Programming languages/Frameworks</strong></p>
+
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/css.png" height="20">
+									</a>
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/html.png" height="20">
+									</a>
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/jquery.png" height="20">
+									</a>
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/php.png" height="20">
+									</a>
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/laravel.png" height="20">
+									</a>
+								</div>
+				              	<p class="client"><strong>Intern at CollabUX </strong></p>
+				              	<p><a href="https://collabux.com/" target="_blank">CollabUX Web Solutions </a>Project</p>
+				            </div>
+			          	</div>
+			        </div>
+
+			        <div class="col-md-4">
+			          	<div class="card mb-4 border-radius-none">
 			          		<img class="project_image bd-placeholder-img card-img-top border-radius-none" alt="Legazpi Fireout" width="100%" height="225" src="assets/images/Legazpi_Fireout.png">
 				            <div class="card-body">
 				              	<p class="card-text"> A Android application for Legazpi BFP hotlines and fire insident report.</p>
@@ -214,6 +245,9 @@
 
 									<a class="social-icons js-scroll-trigger" href="#about-section">
 										<img src="assets/images/icons/css.png" height="20">
+									</a>
+									<a class="social-icons js-scroll-trigger" href="#about-section">
+										<img src="assets/images/icons/html.png" height="20">
 									</a>
 									<a class="social-icons js-scroll-trigger" href="#about-section">
 										<img src="assets/images/icons/jquery.png" height="20">
